@@ -23,7 +23,7 @@ def bhop():
 def clicked():
     winsound.Beep(1000, 200)
     bhop()
-23
+    
 btn = Button(window, text="UwU" , command = clicked)
 
 btn.grid(column=1, row=0)
